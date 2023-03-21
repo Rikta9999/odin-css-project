@@ -49,13 +49,14 @@ button {
     background: royalblue;
     border: 1px solid royalblue;
     color: white;
+    font-weight: 700;
 }
 
 .sign-up-button2 {
     background: #3882F6;
     border: 3px solid white;
     color: white;
-    
+    font-weight: 700;
 }
 
 .quote {
@@ -77,6 +78,9 @@ button {
     background-color: #1F2937;
     color: white;
     height: 128px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .image2 {
@@ -148,7 +152,7 @@ button {
     background-color: #3882F6;
     color: white;
     border-radius: 10px;
-    gap:60px;
+    gap:100px;
 }
 
 .subscribe-main-text {
