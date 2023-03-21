@@ -23,6 +23,8 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    display: flex;
+    gap: 20px;
   }
   
 a {
@@ -32,12 +34,14 @@ a {
   }
 
 .image1 {
-    width: 500px;
-    height: 250px;
+    
+    width: 650px;
+    height: 200px;
+    
 }
 
 button {
-    padding: 8px 32px;
+    padding: 8px 40px;
     border-radius: 8px;
   }
 
@@ -45,4 +49,109 @@ button {
     background: royalblue;
     border: 1px solid royalblue;
     color: white;
+}
+
+.sign-up-button2 {
+    background: #3882F6;
+    border: 3px solid white;
+    color: white;
+    
+}
+
+.quote {
+    background-color: #E5E7EB;
+}
+
+.quote-text {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+}
+
+.quote-author {
+    font-size: larger;
+    font-weight: 700;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: white;
+    height: 128px;
+}
+
+.image2 {
+    width: 200px;
+    height: 150px;
+    border-radius: 16px;
+    border: 5px solid royalblue;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 190px;
+}
+
+.header-body {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 190px;
+    gap: 30px;  
+    
+}
+
+.information {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    gap: 60px;
+    padding: 60px 0px;
+
+}
+
+.information-text {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.information-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.info {
+    max-width: 200px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+
+    height: 400px;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 0px 350px;
+}
+
+.subscribe {
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscribe-container {
+    display:flex;
+    padding: 50px 120px;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 10px;
+    gap:60px;
+}
+
+.subscribe-main-text {
+    font-size: 24px;
+    font-weight: 700;
 }
