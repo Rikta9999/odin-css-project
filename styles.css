@@ -1,5 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
+    margin: 0;
 }
 
 .hero {
@@ -9,7 +10,7 @@ body {
 .header-main-text {
     font-size: 48px;
     color: #F9FAF8;
-    font-weight:800;
+    font-weight:900;
 }
 
 .header-secondary-text {
@@ -20,7 +21,7 @@ body {
 .logo {
     font-size: 24px;
     color: #F9FAF8;
-    font-weight: 700;
+    font-weight: 900;
 }
 
 ul {
@@ -39,8 +40,8 @@ a {
 
 .image1 {
     
-    width: 650px;
-    height: 200px;
+    width: 600px;
+    height: 250px;
     
 }
 
@@ -54,6 +55,7 @@ button {
     border: 1px solid royalblue;
     color: white;
     font-weight: 700;
+    margin-top: 10px;
 }
 
 .sign-up-button2 {
@@ -104,8 +106,7 @@ button {
     display: flex;
     justify-content: space-between;
     padding: 100px 190px;
-    gap: 30px;  
-    
+    gap: 60px;
 }
 
 .information {
@@ -120,7 +121,7 @@ button {
 .information-text {
     color: #1F2937;
     font-size: 36px;
-    font-weight: 800;
+    font-weight: 900;
 }
 
 .information-container {
@@ -137,10 +138,10 @@ button {
     display: flex;
     flex-direction: column;
 
-    height: 400px;
+    /*height: 400px;*/
     justify-content: center;
     align-items: flex-end;
-    padding: 0px 350px;
+    padding: 150px 350px;
 }
 
 .subscribe {
@@ -163,3 +164,4 @@ button {
     font-size: 24px;
     font-weight: 700;
 }
+
