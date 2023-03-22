@@ -38,13 +38,6 @@ a {
     font-size: 18px;
   }
 
-.image1 {
-    
-    width: 600px;
-    height: 250px;
-    
-}
-
 button {
     padding: 8px 40px;
     border-radius: 8px;
@@ -107,6 +100,12 @@ button {
     justify-content: space-between;
     padding: 100px 190px;
     gap: 60px;
+
+}
+
+.img-container>.image1 {
+    width: 600px;
+    height: 250px; 
 }
 
 .information {
@@ -128,6 +127,7 @@ button {
     display: flex;
     justify-content: center;
     gap: 50px;
+    flex-wrap: wrap;
 }
 
 .info {
